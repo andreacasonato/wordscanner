@@ -104,6 +104,10 @@ body {
     margin-bottom: 10px;
 }
 
+.stat__number--limit {
+    color: red;
+}
+
 .second-heading {
     font-size: .875rem;
     text-transform: uppercase;
@@ -123,6 +127,7 @@ body {
 }
 
 /* ===== MEDIA QUERIES ===== */
+
 @media(max-width: 1150px) {
     .container {
         width: 85vw;
